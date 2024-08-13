@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+
+
+<body>
+    <!-- Section: Signup Block -->
+    <section class="radial-gradient-background">
+        <div class="container text-content">
+            <div class="row align-items-center">
+                <div class="text-column">
+                    <h1 class="main-heading">
+                        Preserve water, <br />
+                        <span class="highlight-text">preserve life.</span>
+                    </h1>
+                    <p class="description-text">
+                        <i> Saving water, often taken for granted in areas with a regular supply, becomes crucial when considering global population growth and climate change. As resources tighten, saving water becomes imperative. So before we explore some of the save water quotes,
+                        let's explore the importance of water conservation first. </i> </p>
+                </div>
+
+                <div class="form-column">
+                    <div id="shape-1" class="decorative-shape"></div>
+                    <div id="shape-2" class="decorative-shape"></div>
+
+                    <div class="card glass-effect">
+                        <div class="card-body">
+                            <form>
+                                <!-- 2 column grid layout with text inputs for the first and last names -->
+                                <div class="row">
+                                    <div class="input-group">
+                                        <input type="text" id="first-name" class="form-control" />
+                                        <label class="form-label" for="first-name">First name</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" id="last-name" class="form-control" />
+                                        <label class="form-label" for="last-name">Last name</label>
+                                    </div>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="input-group">
+                                    <input type="email" id="email-address" class="form-control" />
+                                    <label class="form-label" for="email-address">Email address</label>
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="input-group">
+                                    <input type="password" id="password" class="form-control" />
+                                    <label class="form-label" for="password">Password</label>
+                                </div>
+
+                                <!-- Checkbox -->
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="newsletter-subscribe" checked />
+                                    <label class="form-check-label" for="newsletter-subscribe">
+                                        Subscribe to our newsletter
+                                    </label>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary btn-block">
+                                    Sign up
+                                </button>
+
+                                <!-- Register buttons -->
+                                <div class="social-signup">
+                                    <p>or sign up with:</p>
+                                    <button type="button" class="btn btn-link social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-link social-icon">
+                                        <i class="fab fa-google"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-link social-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-link social-icon">
+                                        <i class="fab fa-github"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Signup Block -->
+</body>
+
+</html>
+
+
+</html>

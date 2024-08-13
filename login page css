@@ -1,1 +1,208 @@
+/* General reset */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #273f58;
+}
+
+
+/* Section styling */
+
+.radial-gradient-background {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(650px circle at 0% 0%, hsl(218, 41%, 35%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%), radial-gradient(1250px circle at 100% 100%, hsl(218, 41%, 45%) 15%, hsl(218, 41%, 30%) 35%, hsl(218, 41%, 20%) 75%, hsl(218, 41%, 19%) 80%, transparent 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #0b0e0e;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.text-content {
+    text-align: left;
+}
+
+.text-column,
+.form-column {
+    flex: 1;
+    padding: 15px;
+    position: relative;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    color: hsl(104, 74%, 42%);
+}
+
+.description-text {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+
+
+/* Decorative shapes */
+
+.decorative-shape {
+    position: absolute;
+    z-index: 5;
+    border-radius: 50%;
+}
+
+#shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -60px;
+    left: -130px;
+    background: radial-gradient(#669b0f, #860d7e);
+}
+
+#shape-2 {
+    height: 300px;
+    width: 300px;
+    bottom: -60px;
+    right: -110px;
+    background: radial-gradient(#0aa454, #078be38b);
+    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+}
+
+
+/* Card styling */
+
+.card {
+    position: relative;
+    z-index: 10;
+    border: none;
+    border-radius: 1rem;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(222, 112, 16, 0.2);
+}
+
+.glass-effect {
+    background-color: hsla(60, 15%, 78%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+}
+
+
+/* Form inputs */
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #0c7ae8;
+    transition: border-color 0.2s;
+}
+
+.form-control:focus {
+    border-color: hsl(218, 41%, 45%);
+    outline: none;
+}
+
+.form-label {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 0 5px;
+    font-size: 0.85rem;
+    color: #050b10;
+    pointer-events: none;
+    transition: all 0.2s;
+}
+
+.form-control:focus+.form-label,
+.form-control:not(:placeholder-shown)+.form-label {
+    top: -18px;
+    left: 15px;
+    font-size: 0.75rem;
+    color: hsl(218, 44%, 4%);
+}
+
+
+/* Button and links */
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: hsl(218, 81%, 45%);
+    color: #1a1515;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: hsl(218, 81%, 55%);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.social-signup {
+    text-align: center;
+}
+
+.social-signup p {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: hsl(220, 100%, 2%);
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 0 5px;
+}
+
+.social-icon:hover {
+    color: hsl(218, 81%, 95%);
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-check-input {
+    margin-right: 0.5rem;
+}
